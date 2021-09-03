@@ -125,8 +125,8 @@ export default class SecondColumn extends Component { state = {
               </div>
             </div>
           </div>
-          <div className="codeRepo quantity">
-            <header><span>Quantity</span><img src={settingsIcon} alt="setting icon"
+          <div className="codeRepo Quality">
+            <header><span>Quality</span><img src={settingsIcon} alt="setting icon"
             onClick={() => this.setState({settingToggleQuantity: !this.state.settingToggleQuantity})}/></header>
             <span className={this.state.settingToggleQuantity ? "settingsTag edit" : "settingsTag"}></span>
               <div className={this.state.settingToggleQuantity ? "settings edit" : "settings"}>
@@ -142,7 +142,7 @@ export default class SecondColumn extends Component { state = {
                   <p>update 3mins ago</p>
                 </div>
             </div>
-              <span className="title"><h3>static analysis</h3><h3>security analysis</h3><h3 className="a">version 2.4</h3></span>
+              <span className="title"><h3>static analysis</h3></span>
                   <div className="verBlock">
                     <div className="analysis">
                     <div>
@@ -191,7 +191,7 @@ export default class SecondColumn extends Component { state = {
                     </div>
                     </div>
                   </div>
-                  <span className="title"><h3>unit tests</h3><h3>functional test</h3><h3 className="a">code coverage</h3></span>    
+                  <span className="title"><h3>unit tests</h3></span>    
                   <div className="verBlock">
                   <div className="analysis">
                   <div>
